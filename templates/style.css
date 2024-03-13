@@ -1,0 +1,65 @@
+/* style.css */
+
+/* Apply styles to the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Apply styles to the heading */
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Apply styles to the form */
+.container form {
+    text-align: center;
+}
+
+/* Apply styles to form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Apply styles to labels */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Apply styles to text inputs */
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Apply styles to the submit button */
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Change button background color on hover */
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Apply styles to the description section */
+.description {
+    margin-top: 20px;
+}
